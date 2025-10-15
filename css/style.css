@@ -26,6 +26,14 @@ ul {
     margin: 0 auto;
 }
 
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
 /* UTILITIES */
 .flex {
     display: flex;
@@ -35,6 +43,14 @@ ul {
     gap: 10px;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: rgb(169, 200, 227);
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -42,4 +58,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+}
+
+/* MAIN */
+.hero-section {
+    padding: 100px 0px;
 }
