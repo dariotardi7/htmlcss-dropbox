@@ -8,3 +8,38 @@
 img {
     max-width: 100%;
 }
+
+ul {
+    list-style: none;
+}
+
+/* LAYOUT */
+.container {
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-large {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* UTILITIES */
+.flex {
+    display: flex;
+}
+
+.g-10 {
+    gap: 10px;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
