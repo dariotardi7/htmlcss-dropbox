@@ -39,8 +39,16 @@ ul {
     display: flex;
 }
 
+.justify-content-between {
+    justify-content: space-between;
+}
+
 .g-10 {
     gap: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .text-center {
@@ -63,4 +71,8 @@ header {
 /* MAIN */
 .hero-section {
     padding: 100px 0px;
+}
+
+.base-section {
+    padding: 50px 0px;
 }
