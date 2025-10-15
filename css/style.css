@@ -75,6 +75,10 @@ ul {
     margin-bottom: 20px;
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -98,11 +102,17 @@ body {
     display: inline-block;
     background-color: blue;
     padding: 8px 14px;
+    text-decoration: none;
 }
 
 .btn-blue {
     background-color: blue;
     color: white;
+}
+
+.arrow-button {
+    display: inline-block;
+    width: 3.5rem;
 }
 
 /* HEADER */
@@ -120,13 +130,28 @@ header a {
 }
 
 /* MAIN */
+h1 {
+    font-size: 4rem;
+}
+
 .hero-section {
-    padding: 100px 0px;
+    padding: 40x 0px;
+}
+
+.hero-section .container-large {
+    position: relative;
+    top: 50px;
+}
+
+.hero-section + .base-section {
+    padding-top: 90px;
 }
 
 .base-section {
     padding: 50px 0px;
 }
+
+
 
 /* FOOTER */
 footer {
