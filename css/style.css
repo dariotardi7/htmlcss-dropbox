@@ -59,8 +59,16 @@ ul {
     justify-content: space-between;
 }
 
+.align-items-center {
+    align-items:center;
+}
+
 .g-10 {
     gap: 10px;
+}
+
+.g-20 {
+    gap: 20px;
 }
 
 .mb-20 {
@@ -81,6 +89,22 @@ ul {
     margin: 30px 0px;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    background-color: blue;
+    padding: 8px 14px;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -88,6 +112,11 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
 }
 
 /* MAIN */
