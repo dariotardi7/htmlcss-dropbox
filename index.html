@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
@@ -60,16 +61,165 @@
         <section class="base-section">
             <div class="container">
                 <h2 class="mb-20">Trova il piano business che fa per te</h2>
-                <div class="mb-20">Fatturazione mensile / annuale</div>
+                <div class="mb-20 flex g-20">
+                    <div>
+                     <input id="mensile" name="Fatturazione" type="radio" />
+                     <label for="mensile">Fatturazione mensile</label>
+                    </div>
+
+                    <div>
+                     <input id="annuale" name="Fatturazione" type="radio" />
+                     <label for="annuale">Fatturazione annuale</label>
+                    </div>
+                </div>
                 <div class="flex justify-content-between mb-20">
-                    <div class="col-30">
-                        CIAO
+                    <div class="col-30 card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="mb-10">Professional</h2>
+                            <div class="mb-10">€ 12,00</div>
+                            <div class="text-gray mb-30">/mese</div>
+
+                            <ul class="card-list mb-30">
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>1 utente</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>5 TB di spazio di archiviazione sicuro</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                                </li>
+                            </ul>
+
+                            <a class="btn btn-blue mb-30" href="">Prova gratis per 30 giorni</a>
+                            <p>Oppure <a href="">Acquista ora</a></p>
+                            <hr class="divider" />
+
+                            <ul class="card-list icon-blue mb-30">
+                                <li>
+                                    <p><strong>Punti salienti del piano</strong></p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Invia file fino a 100GB con Dropbox Transfer</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle online su dispositivi mobili</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-30">
-                        CIAO
+                    <div class="col-30 card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-users"></i>
+                            <span>Team</span>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="mb-10">Advanced</h2>
+                            <div class="mb-10">€ 18,00</div>
+                            <div class="text-gray mb-30">/utente/mese</div>
+
+                            <ul class="card-list mb-30">
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    <span>3 o più utenti</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Tutto lo spazio di cui ha bisogno il tuo team</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                                </li>
+                            </ul>
+
+                            <a class="btn btn-blue mb-30" href="">Prova gratis per 30 giorni</a>
+                            <p>Oppure <a href="">Acquista ora</a></p>
+                            <hr class="divider" />
+
+                            <ul class="card-list icon-blue mb-30">
+                                <li>
+                                    <p><strong>Punti salienti del piano</strong></p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>nessun limite di spazio per i file</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle offline su dispositivi mobili</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Risparmio del 50% rispetto alle iscrizioni singole</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Possibilità di inserire nuovi membri del team</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Gestire dei permessi in base ai ruoli</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-30">
-                        CIAO
+                    <div class="col-30 card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Azienda</span>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="mb-10">Enterprise</h2>
+                            <div class="mb-10">Contattaci</div>
+                            <div class="text-gray mb-30">-</div>
+
+                            <ul class="card-list mb-30">
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>10 o più utenti</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Soluzioni personalizzabili per la tua azienda</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                                </li>
+                            </ul>
+
+                            <a class="btn btn-blue mb-30" href="">Contattaci</a>
+                            <p>Oppure <a href="">Acquista ora</a></p>
+                            <hr class="divider" />
+
+                            <ul class="card-list icon-blue mb-30">
+                                <li>
+                                    <p><strong>Punti salienti del piano</strong></p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle offline su dispositivi mobili</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Servizio assistenza 24/h</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Possibilità di personalizzazione totale</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-100">
